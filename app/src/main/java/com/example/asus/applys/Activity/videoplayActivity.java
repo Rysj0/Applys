@@ -12,7 +12,7 @@ import android.widget.SeekBar;
 import com.example.asus.applys.R;
 
 
-public class videoplayer extends Activity {
+public class videoplayActivity extends Activity {
     private SurfaceView surfaceView;
     private Button btnPause, btnPlayUrl, btnStop;
     private SeekBar skbProgress;
@@ -48,7 +48,7 @@ public class videoplayer extends Activity {
                 player.playUrl(url);
             } else if (arg0 == btnStop) {
                 player.stop();
-                Intent intent = new Intent(videoplayer.this, IndexActivity.class);
+                Intent intent = new Intent(videoplayActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         }

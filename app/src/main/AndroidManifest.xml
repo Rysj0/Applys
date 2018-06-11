@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,9 @@
         </activity>
         <activity android:name=".Activity.LoginActivity" />
         <activity android:name=".Activity.RegisterActivity" />
-        <activity android:name=".Activity.videoplayer" />
+        <activity android:name=".Activity.videoplayActivity" />
+        <activity android:name=".Activity.ShowDescriptionActivity" />
+        <activity android:name=".Activity.SaxActivity" />
     </application>
 
 </manifest>

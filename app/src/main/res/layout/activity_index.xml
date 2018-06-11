@@ -67,7 +67,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="85dp"
             android:layout_toRightOf="@id/iv_course_history_icon"
-            android:text="发送邮件"
+            android:text="新闻"
             android:textColor="#A3A3A3"
             android:textSize="18sp" />
 
