@@ -21,8 +21,10 @@ public class videoplayActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //设置此界面为竖屏
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         setContentView(R.layout.player);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         surfaceView = (SurfaceView) this.findViewById(R.id.surfaceView1);
 
         btnPlayUrl = (Button) this.findViewById(R.id.btnPlayUrl);//播放

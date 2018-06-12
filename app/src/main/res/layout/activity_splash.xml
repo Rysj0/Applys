@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/launch_bg"
-    tools:context="com.example.asus.myapplication.Activity.SplashActivity">
+    android:background="@drawable/q"
+    tools:context="com.example.asus.applys.Activity.SplashActivity">
 
     <TextView
         android:id="@+id/tv_version"
