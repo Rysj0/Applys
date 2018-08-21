@@ -1,11 +1,12 @@
-package com.example.asus.applys.Sex;
+﻿package com.example.asus.applys.Sex;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 public class RssFeed {
-    private String title; // 标题
+    //更新 提交代码测试
+    private String title; // 标题  
     private String pubdate; // 发布日期
     private int itemCount; // 用于计算列表的数目
     private List<RssItem> rssItems; // 用于描述列表item
